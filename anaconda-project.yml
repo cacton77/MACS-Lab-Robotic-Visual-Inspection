@@ -15,7 +15,7 @@ commands:
 env_specs:
   default:
     packages:
-      - python=3.13
+      - python=3.12
       - sphinx
       - sphinx-rtd-theme
       - myst-parser
@@ -25,7 +25,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.13
+  - python=3.12
   - sphinx
   - sphinx-rtd-theme
   - myst-parser

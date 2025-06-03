@@ -148,6 +148,8 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/manipulator_focus/intro.md",
+    "source/manipulator_focus",
     "source/viewpoint_generation/intro.md",
     "source/viewpoint_generation",
     "envs/default/etc/conda/deactivate.d/openssl_deactivate.ps1",
@@ -158,7 +160,6 @@
     "envs/default/etc/conda/activate.d/openssl_activate.sh",
     "envs/default/etc/conda/deactivate.d",
     "envs/default/etc/conda/activate.d",
-    "envs/default/etc/aau_token",
     "Welcome.md",
     "source/welcome.md",
     "Untitled.md",

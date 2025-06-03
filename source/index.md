@@ -26,6 +26,13 @@ viewpoint_generation/intro.md
 ```
 
 ```{toctree}
+:hidden: 
+:caption: Manipulator Focus
+
+manipulator_focus/intro.md
+```
+
+```{toctree}
 :hidden:
 :caption: Contributions
 

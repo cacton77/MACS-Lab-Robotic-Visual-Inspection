@@ -1,1 +1,5 @@
 # Contact
+
+```{toctree}
+contact.md
+```

@@ -11,3 +11,7 @@ Some of the features of my project include:
 - This other awesome feature
 
 If you would like to contribute, you can contact me by {doc}`clicking here <contact>`.
+
+```{toctree}
+contact.md
+```

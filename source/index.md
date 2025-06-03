@@ -27,9 +27,23 @@ viewpoint_generation/intro.md
 
 ```{toctree}
 :hidden: 
+:caption: 📈 Viewpoint Traversal Optimization
+
+traversal_optimization/intro.md
+```
+
+```{toctree}
+:hidden: 
 :caption: 🦾 Manipulator Focus
 
 manipulator_focus/intro.md
+```
+
+```{toctree}
+:hidden: 
+:caption: 📸 gPhoto2 ROS2
+
+gphoto2_ros2/intro.md
 ```
 
 ```{toctree}

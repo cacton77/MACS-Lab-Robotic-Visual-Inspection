@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/welcome.md",
+                "file": "source/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/welcome.md",
+                "file": "source/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/welcome.md",
+                "file": "source/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/welcome.md"
+                "file": "source/index.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/welcome.md",
+    "source/overview.md",
     "source/manipulator_focus/autofocus.md",
     "source/manipulator_focus/focus_metrics.md",
     "source/manipulator_focus/control_algorithm.md",
@@ -167,7 +169,6 @@
     "envs/default/etc/conda/deactivate.d/openssl_deactivate.ps1",
     "envs/default/etc/conda/deactivate.d/openssl_deactivate.sh",
     "Welcome.md",
-    "source/welcome.md",
     "Untitled.md",
     "source/index.md",
     "source/contact.md",

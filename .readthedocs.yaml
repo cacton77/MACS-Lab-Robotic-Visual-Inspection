@@ -18,7 +18,7 @@ formats:
   - pdf
 
 conda:
-  environment: environment.yml
+  environment: anaconda-project.yml
 
 # Optionally, but recommended,
 # declare the Python requirements required to build your documentation

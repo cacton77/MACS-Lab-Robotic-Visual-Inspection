@@ -20,7 +20,8 @@ contact.md
 ```
 
 ```{toctree}
-:hidden: Viewpoint Generation
+:hidden: 
+:caption: Viewpoint Generation
 
 viewpoint_generation/intro.md
 ```

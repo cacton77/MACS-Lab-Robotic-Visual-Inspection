@@ -57,6 +57,8 @@ contact.md
 ```
 
 ```{toctree}
+:hidden:
+:caption: Development Tools
 development_tools/ros2.md
 development_tools/ubuntu.md
 development_tools/docker.md

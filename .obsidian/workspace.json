@@ -162,6 +162,7 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "requirements.txt",
     "build/html/_static/js/theme.js",
     "build/html/_static/js/versions.js",
     "build/html/_static/js/badge_only.js",
@@ -172,7 +173,6 @@
     "build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf",
     "build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2",
     "build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff",
-    "build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf",
     "build/html/_static/css/fonts/fontawesome-webfont.svg",
     "build/html/_static/github-banner.svg",
     "build/html/_static/plus.png",

@@ -162,6 +162,9 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/contact.md",
+    "source/index.md",
+    "envs/default/Lib/idlelib/NEWS.txt",
     "requirements.txt",
     "build/_static/js/versions.js",
     "build/_static/js/theme.js",
@@ -171,8 +174,6 @@
     "build/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff",
     "build/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf",
     "build/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2",
-    "build/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot",
-    "build/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff",
     "build/_static/plus.png",
     "build/_static/minus.png",
     "build/_static/file.png",
@@ -187,7 +188,6 @@
     "envs/default/Lib/site-packages/mdit_py_plugins/deflist/README.md",
     "envs/default/Lib/site-packages/mdit_py_plugins/container/README.md",
     "envs/default/Lib/site-packages/idna-3.7.dist-info/LICENSE.md",
-    "source/index.md",
     "Welcome.md"
   ]
 }

@@ -1,4 +1,4 @@
-# MACS Lab Robotic Visual Inspection documentation
+# MACS Lab Robotic Visual Inspection
 *** 
 
 Welcome to my documentation on my **project**.

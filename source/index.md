@@ -20,14 +20,14 @@ welcome.md
 
 ```{toctree}
 :hidden: 
-:caption: Viewpoint Generation
+:caption: 👁️ Viewpoint Generation
 
 viewpoint_generation/intro.md
 ```
 
 ```{toctree}
 :hidden: 
-:caption: Manipulator Focus
+:caption: 🦾 Manipulator Focus
 
 manipulator_focus/intro.md
 ```

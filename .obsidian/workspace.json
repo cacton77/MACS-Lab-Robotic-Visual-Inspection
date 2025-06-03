@@ -148,6 +148,10 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/manipulator_focus/autofocus.md",
+    "source/manipulator_focus/focus_metrics.md",
+    "source/manipulator_focus/control_algorithm.md",
+    "source/manipulator_focus/focus_metrics.py",
     "source/gphoto2_ros2/intro.md",
     "source/gphoto2_ros2",
     "source/traversal_optimization/intro.md",
@@ -162,7 +166,6 @@
     "source/viewpoint_generation",
     "envs/default/etc/conda/deactivate.d/openssl_deactivate.ps1",
     "envs/default/etc/conda/deactivate.d/openssl_deactivate.sh",
-    "envs/default/etc/conda/deactivate.d/openssl_deactivate.bat",
     "Welcome.md",
     "source/welcome.md",
     "Untitled.md",

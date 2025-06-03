@@ -37,6 +37,9 @@ traversal_optimization/intro.md
 :caption: 🦾 Manipulator Focus
 
 manipulator_focus/intro.md
+manipulator_focus/autofocus.md
+manipulator_focus/focus_metrics.md
+manipulator_focus/control_algorithm.md
 ```
 
 ```{toctree}

@@ -1,0 +1,26 @@
+name: MACS Lab Robotic Visual Inspection documentation
+description: Documentation for the MACS Lab Robotic Visual Inspection project.
+
+commands:
+  quickstart:
+    unix: sphinx-quickstart
+    windows: sphinx-quickstart
+  build:
+    unix: rm -rf build & sphinx-build -b html ./source ./build
+    windows: rmdir /s /q build 2>nul & sphinx-build -b html ./source ./build
+  serve:
+    unix: python -m http.server --directory ./build
+    windows: python -m http.server --directory ./build
+
+env_specs:
+  default:
+    packages:
+      - python=3.13
+      - sphinx
+      - sphinx-rtd-theme
+      - myst-parser
+      - chardet
+
+channels:
+  - defaults
+  - https://conda.anaconda.org/conda-forge

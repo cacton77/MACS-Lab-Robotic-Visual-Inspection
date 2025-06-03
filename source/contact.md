@@ -2,8 +2,3 @@
 ***
 
 
-```{toctree}
-index.md
-welcome.md
-contact.md
-```

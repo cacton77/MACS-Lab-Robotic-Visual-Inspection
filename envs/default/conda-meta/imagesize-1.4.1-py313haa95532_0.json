@@ -1,0 +1,133 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "C:\\Users\\Colin\\anaconda3\\pkgs\\imagesize-1.4.1-py313haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/METADATA",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/RECORD",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+    "Lib/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+    "Lib/site-packages/imagesize/__init__.py",
+    "Lib/site-packages/imagesize/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/imagesize/__pycache__/imagesize.cpython-313.pyc",
+    "Lib/site-packages/imagesize/imagesize.py",
+    ".nonadmin"
+  ],
+  "fn": "imagesize-1.4.1-py313haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Colin\\anaconda3\\pkgs\\imagesize-1.4.1-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "ad355310575235d79570bab544043b12",
+  "name": "imagesize",
+  "package_tarball_full_path": "C:\\Users\\Colin\\anaconda3\\pkgs\\imagesize-1.4.1-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "sha256_in_prefix": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3c71fce845f771be5b8789cc87f2be934a8fa10ac099341ce1b97b6d7b11fb6f",
+        "sha256_in_prefix": "3c71fce845f771be5b8789cc87f2be934a8fa10ac099341ce1b97b6d7b11fb6f",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "565a9d1e040173896b5fd486719d509d9d7b82fd21cd8359ad7a7782248b80e2",
+        "sha256_in_prefix": "565a9d1e040173896b5fd486719d509d9d7b82fd21cd8359ad7a7782248b80e2",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "sha256_in_prefix": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e1c8221e46578e125c5408e1a106d656eab47858ba85a345670c8ea75b4d83f2",
+        "sha256_in_prefix": "e1c8221e46578e125c5408e1a106d656eab47858ba85a345670c8ea75b4d83f2",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "Lib/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "sha256_in_prefix": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "Lib/site-packages/imagesize/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "sha256_in_prefix": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "Lib/site-packages/imagesize/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "57b7c2b2bda5d10bf5588e9564d50af403b1345f0a997b1d1f2daa16661e1c09",
+        "sha256_in_prefix": "57b7c2b2bda5d10bf5588e9564d50af403b1345f0a997b1d1f2daa16661e1c09",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "Lib/site-packages/imagesize/__pycache__/imagesize.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0e7b186788316451475d2f901c036577a0844a28e2134487bdae1940e78037b",
+        "sha256_in_prefix": "d0e7b186788316451475d2f901c036577a0844a28e2134487bdae1940e78037b",
+        "size_in_bytes": 16146
+      },
+      {
+        "_path": "Lib/site-packages/imagesize/imagesize.py",
+        "path_type": "hardlink",
+        "sha256": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "sha256_in_prefix": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "size_in_bytes": 13992
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f7f0bab1b223415ae3ad0648115254b3d1d144ae3bb9f5503fa4045f820a39f1",
+  "size": 17974,
+  "subdir": "win-64",
+  "timestamp": 1729042643000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/imagesize-1.4.1-py313haa95532_0.conda",
+  "version": "1.4.1"
+}

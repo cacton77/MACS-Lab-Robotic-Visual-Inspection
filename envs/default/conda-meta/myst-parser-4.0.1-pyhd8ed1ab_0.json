@@ -1,0 +1,583 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "docutils >=0.19,<0.22",
+    "jinja2",
+    "markdown-it-py >=3.0.0,<4.0.0",
+    "mdit-py-plugins >=0.4.1,<1",
+    "python >=3.10",
+    "pyyaml",
+    "sphinx >=7,<9"
+  ],
+  "extracted_package_dir": "C:\\Users\\Colin\\anaconda3\\pkgs\\myst-parser-4.0.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Scripts/myst-anchors",
+    "Scripts/myst-docutils-demo",
+    "Scripts/myst-docutils-html",
+    "Scripts/myst-docutils-html5",
+    "Scripts/myst-docutils-latex",
+    "Scripts/myst-docutils-pseudoxml",
+    "Scripts/myst-docutils-xml",
+    "Scripts/myst-inv",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/INSTALLER",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/LICENSE",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/METADATA",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/RECORD",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/REQUESTED",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/WHEEL",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/direct_url.json",
+    "Lib/site-packages/myst_parser-4.0.1.dist-info/entry_points.txt",
+    "Lib/site-packages/myst_parser/__init__.py",
+    "Lib/site-packages/myst_parser/_compat.py",
+    "Lib/site-packages/myst_parser/_docs.py",
+    "Lib/site-packages/myst_parser/cli.py",
+    "Lib/site-packages/myst_parser/config/__init__.py",
+    "Lib/site-packages/myst_parser/config/dc_validators.py",
+    "Lib/site-packages/myst_parser/config/main.py",
+    "Lib/site-packages/myst_parser/docutils_.py",
+    "Lib/site-packages/myst_parser/inventory.py",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__init__.py",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/base.py",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/html_to_nodes.py",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/sphinx_.py",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/transforms.py",
+    "Lib/site-packages/myst_parser/mocking.py",
+    "Lib/site-packages/myst_parser/parsers/__init__.py",
+    "Lib/site-packages/myst_parser/parsers/directives.py",
+    "Lib/site-packages/myst_parser/parsers/docutils_.py",
+    "Lib/site-packages/myst_parser/parsers/mdit.py",
+    "Lib/site-packages/myst_parser/parsers/options.py",
+    "Lib/site-packages/myst_parser/parsers/parse_html.py",
+    "Lib/site-packages/myst_parser/parsers/sphinx_.py",
+    "Lib/site-packages/myst_parser/py.typed",
+    "Lib/site-packages/myst_parser/sphinx_.py",
+    "Lib/site-packages/myst_parser/sphinx_ext/__init__.py",
+    "Lib/site-packages/myst_parser/sphinx_ext/directives.py",
+    "Lib/site-packages/myst_parser/sphinx_ext/main.py",
+    "Lib/site-packages/myst_parser/sphinx_ext/mathjax.py",
+    "Lib/site-packages/myst_parser/sphinx_ext/myst_refs.py",
+    "Lib/site-packages/myst_parser/warnings_.py",
+    ".nonadmin",
+    "Lib/site-packages/myst_parser/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/_compat.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/_docs.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/cli.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/config/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/config/__pycache__/dc_validators.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/config/__pycache__/main.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/docutils_.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/inventory.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/base.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/html_to_nodes.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/sphinx_.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/transforms.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/mocking.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/directives.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/docutils_.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/mdit.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/options.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/parse_html.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/parsers/__pycache__/sphinx_.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/sphinx_.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/directives.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/main.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/mathjax.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/myst_refs.cpython-313.pyc",
+    "Lib/site-packages/myst_parser/__pycache__/warnings_.cpython-313.pyc",
+    "Scripts/myst-benchmark-script.py",
+    "Scripts/myst-benchmark.exe"
+  ],
+  "fn": "myst-parser-4.0.1-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\Colin\\anaconda3\\pkgs\\myst-parser-4.0.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b528795158847039003033ee0db20e9b",
+  "name": "myst-parser",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Colin\\anaconda3\\pkgs\\myst-parser-4.0.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/myst-anchors",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "c97318990bc751c20724db5dbeee5b7dc4653a58cf8ae7ace29ef442c08cf218",
+        "sha256_in_prefix": "1f68bf8b8c10afc394f84f30c8549b28af91e89de7da9d450837dc3db70c08be",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "python-scripts/myst-docutils-demo",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "1352a540ab42bc63e7d04f2983b6540f581dc4049414e6e1c1017f3809c1f088",
+        "sha256_in_prefix": "c59532b43e91df5a1aecb08a5609432b2fb77db88df6c6fd6546c7d193ad9684",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "python-scripts/myst-docutils-html",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "736a8fbbc0a234e20692bdb287c86e6b00a96ef0594c643686ae252964c4e6c6",
+        "sha256_in_prefix": "1c1a5e27b5c474611d3ebc1b4b2285e7b869d7a7cd3678d027fc9a6ef95e2845",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "python-scripts/myst-docutils-html5",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "6d051188cba58cb9b0f949003a0ce3ccb01d6079704fbe4e8cf636214b66b56d",
+        "sha256_in_prefix": "e7b095137862a7730f0265e0469789b63282327afe4437b932f80082d526b4fb",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "python-scripts/myst-docutils-latex",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "bc289af8e1dabdfd48609f2a75328a55b88d4370086a98e26c45695ac6723699",
+        "sha256_in_prefix": "0833a8d9b127b25ba249ea8af6cb9cf84ede613ccf5930091c1ef7e12bb85ad2",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "python-scripts/myst-docutils-pseudoxml",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "df79049bdce5d103ff77ab7d61b35a24f67141dde58295bc7ef711cf36096009",
+        "sha256_in_prefix": "c0ab5a30cc5349cf1c0d0a90d66cf66431781475201ccd1c9bf635fd501a9f77",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "python-scripts/myst-docutils-xml",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "d952d41994f0b569e1390024bc14c8d9f3d1f1259413936f7781d7a0682dcdf4",
+        "sha256_in_prefix": "fea18535a5db5537f6733a1209201a19abed830d5f8443a0b20d439a441d8115",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "python-scripts/myst-inv",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/myst-parser_1739381835679/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "7b8ccbdf401401dc88520e8c2d492ec0e78f4e7db9bc720da31d5e30e26f9f15",
+        "sha256_in_prefix": "8b584366fdfc1c7c563ff820e55dcde9707eba677fa9883a47d64adfc034b9ee",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+        "sha256_in_prefix": "4a2260d6e2cd0f5a151a1e86dbfe7d3ed552b1e2beabf9941c1ba5c49cbce484",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "31832df0c2fd6c875e40cf9aea447fa5ad2737ff7e11a047c05cd89a45c3af2a",
+        "sha256_in_prefix": "31832df0c2fd6c875e40cf9aea447fa5ad2737ff7e11a047c05cd89a45c3af2a",
+        "size_in_bytes": 5534
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9d450058167177e6da41d127c8197e0221c6e922f5eab436c4b481b169348b86",
+        "sha256_in_prefix": "9d450058167177e6da41d127c8197e0221c6e922f5eab436c4b481b169348b86",
+        "size_in_bytes": 5744
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "sha256_in_prefix": "0a950253178741b44de54191407611268acee407fe432fdf1cc72d710f034862",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c3265aabc750648ea081fffc226fcdeafc1a6c12f6b6c5d8ad1c823e2f9ecbc5",
+        "sha256_in_prefix": "c3265aabc750648ea081fffc226fcdeafc1a6c12f6b6c5d8ad1c823e2f9ecbc5",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/myst_parser-4.0.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "c4b15ee3935ff0a193d9a465d25f2febb283b6f779240ac79be6f23c23bca4ee",
+        "sha256_in_prefix": "c4b15ee3935ff0a193d9a465d25f2febb283b6f779240ac79be6f23c23bca4ee",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "site-packages/myst_parser/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7c4329a4e377e72e1bdabe80d5e1fed9eb7f926246cee7f590127065f8decc0a",
+        "sha256_in_prefix": "7c4329a4e377e72e1bdabe80d5e1fed9eb7f926246cee7f590127065f8decc0a",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "site-packages/myst_parser/_compat.py",
+        "path_type": "hardlink",
+        "sha256": "36718c52109a8893d654087a85425c1f7e00f4f76199f02fb5643fecffa88002",
+        "sha256_in_prefix": "36718c52109a8893d654087a85425c1f7e00f4f76199f02fb5643fecffa88002",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "site-packages/myst_parser/_docs.py",
+        "path_type": "hardlink",
+        "sha256": "626e38bff81ebdbc85823b8f5f1854690103767d16b8b1a011aca24bc5b8fd3e",
+        "sha256_in_prefix": "626e38bff81ebdbc85823b8f5f1854690103767d16b8b1a011aca24bc5b8fd3e",
+        "size_in_bytes": 13875
+      },
+      {
+        "_path": "site-packages/myst_parser/cli.py",
+        "path_type": "hardlink",
+        "sha256": "0c08ac9a4a0672ea56f1a3b5da718e85c7459e8e3f2a7445d08d983734ee743e",
+        "sha256_in_prefix": "0c08ac9a4a0672ea56f1a3b5da718e85c7459e8e3f2a7445d08d983734ee743e",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "site-packages/myst_parser/config/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f2e11fe1c16e7754f3bc3810a93d70c2fa0647254bed4cff863a436c40c4950f",
+        "sha256_in_prefix": "f2e11fe1c16e7754f3bc3810a93d70c2fa0647254bed4cff863a436c40c4950f",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/myst_parser/config/dc_validators.py",
+        "path_type": "hardlink",
+        "sha256": "f59c4e94faf41cfe2954198e486bcd91347fa2e2a0d5cb0bbe6f0dba7889cf24",
+        "sha256_in_prefix": "f59c4e94faf41cfe2954198e486bcd91347fa2e2a0d5cb0bbe6f0dba7889cf24",
+        "size_in_bytes": 5209
+      },
+      {
+        "_path": "site-packages/myst_parser/config/main.py",
+        "path_type": "hardlink",
+        "sha256": "f7572290d84aabf679c2255e087f029a92074ceb95f869009b95075b607f10d7",
+        "sha256_in_prefix": "f7572290d84aabf679c2255e087f029a92074ceb95f869009b95075b607f10d7",
+        "size_in_bytes": 19403
+      },
+      {
+        "_path": "site-packages/myst_parser/docutils_.py",
+        "path_type": "hardlink",
+        "sha256": "0f1a951b25cd94200931756c4cf427ce51729bd3cca29f17cf9e2d740ccc83f6",
+        "sha256_in_prefix": "0f1a951b25cd94200931756c4cf427ce51729bd3cca29f17cf9e2d740ccc83f6",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "site-packages/myst_parser/inventory.py",
+        "path_type": "hardlink",
+        "sha256": "2866be2b1f76299ad95f9fe910375ce58263171ceb1f6cb045bf3687ff4d1baf",
+        "sha256_in_prefix": "2866be2b1f76299ad95f9fe910375ce58263171ceb1f6cb045bf3687ff4d1baf",
+        "size_in_bytes": 16040
+      },
+      {
+        "_path": "site-packages/myst_parser/mdit_to_docutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "05d18014bf4217143245ea7e5c366e3e99b530e42c15d8cd68b29dec0d2ae2fe",
+        "sha256_in_prefix": "05d18014bf4217143245ea7e5c366e3e99b530e42c15d8cd68b29dec0d2ae2fe",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/myst_parser/mdit_to_docutils/base.py",
+        "path_type": "hardlink",
+        "sha256": "3a93a7eaa215408acbc5d5b4f32e14c143990ccaa468b698ed5aee1d5c910b61",
+        "sha256_in_prefix": "3a93a7eaa215408acbc5d5b4f32e14c143990ccaa468b698ed5aee1d5c910b61",
+        "size_in_bytes": 80139
+      },
+      {
+        "_path": "site-packages/myst_parser/mdit_to_docutils/html_to_nodes.py",
+        "path_type": "hardlink",
+        "sha256": "aa68aa74fd2aee043a944d0b50ee9e78678fdb32684810122add0aac7a46143c",
+        "sha256_in_prefix": "aa68aa74fd2aee043a944d0b50ee9e78678fdb32684810122add0aac7a46143c",
+        "size_in_bytes": 4451
+      },
+      {
+        "_path": "site-packages/myst_parser/mdit_to_docutils/sphinx_.py",
+        "path_type": "hardlink",
+        "sha256": "5de71bcf4a33a593642c556c8e17a25ce93346d499302c09ef0e6540c6db7899",
+        "sha256_in_prefix": "5de71bcf4a33a593642c556c8e17a25ce93346d499302c09ef0e6540c6db7899",
+        "size_in_bytes": 9466
+      },
+      {
+        "_path": "site-packages/myst_parser/mdit_to_docutils/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "cac84789c6264ae8fbfc653bbb84282e41d705b8a47d022390cbc9fdcc45b9c9",
+        "sha256_in_prefix": "cac84789c6264ae8fbfc653bbb84282e41d705b8a47d022390cbc9fdcc45b9c9",
+        "size_in_bytes": 10069
+      },
+      {
+        "_path": "site-packages/myst_parser/mocking.py",
+        "path_type": "hardlink",
+        "sha256": "938348cb3e9a7d2e97674b07425603617ec3c22ab0bae16a7ca94d2f0977679c",
+        "sha256_in_prefix": "938348cb3e9a7d2e97674b07425603617ec3c22ab0bae16a7ca94d2f0977679c",
+        "size_in_bytes": 22404
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "450008c749b661ac5f166f7ee018ca7cbe62748c9a7b752d81906e7b93db96ec",
+        "sha256_in_prefix": "450008c749b661ac5f166f7ee018ca7cbe62748c9a7b752d81906e7b93db96ec",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/directives.py",
+        "path_type": "hardlink",
+        "sha256": "ebf660973eb3b31d56399b4dda11c8672f4634dcb5a162264d43e61ce1c64900",
+        "sha256_in_prefix": "ebf660973eb3b31d56399b4dda11c8672f4634dcb5a162264d43e61ce1c64900",
+        "size_in_bytes": 10906
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/docutils_.py",
+        "path_type": "hardlink",
+        "sha256": "edeba0b20c85d7e43b1e97f234580fd5b69de9fefe214b26108086d85da7774b",
+        "sha256_in_prefix": "edeba0b20c85d7e43b1e97f234580fd5b69de9fefe214b26108086d85da7774b",
+        "size_in_bytes": 16410
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/mdit.py",
+        "path_type": "hardlink",
+        "sha256": "5ba011db1fe6981b669bd6cf74ecbf193970419952a30ae6fd0afdd9186d4eaa",
+        "sha256_in_prefix": "5ba011db1fe6981b669bd6cf74ecbf193970419952a30ae6fd0afdd9186d4eaa",
+        "size_in_bytes": 4655
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/options.py",
+        "path_type": "hardlink",
+        "sha256": "8dd675fb5e7a05afe1d02f518f0784b704bfc073481e68e572fefaac2f2ef6e7",
+        "sha256_in_prefix": "8dd675fb5e7a05afe1d02f518f0784b704bfc073481e68e572fefaac2f2ef6e7",
+        "size_in_bytes": 21053
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/parse_html.py",
+        "path_type": "hardlink",
+        "sha256": "482a84d8f0873b534d2410827e231e2df469d300a004ab11e944118f0cec542b",
+        "sha256_in_prefix": "482a84d8f0873b534d2410827e231e2df469d300a004ab11e944118f0cec542b",
+        "size_in_bytes": 13730
+      },
+      {
+        "_path": "site-packages/myst_parser/parsers/sphinx_.py",
+        "path_type": "hardlink",
+        "sha256": "dd7493f50090607e3570cbf9db0f091baaead948e684b1dac5fe728eee76a79e",
+        "sha256_in_prefix": "dd7493f50090607e3570cbf9db0f091baaead948e684b1dac5fe728eee76a79e",
+        "size_in_bytes": 2586
+      },
+      {
+        "_path": "site-packages/myst_parser/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "sha256_in_prefix": "f0f8f2675695a10a5156fb7bd66bafbaae6a13e8d315990af862c792175e6e67",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_.py",
+        "path_type": "hardlink",
+        "sha256": "0e77f5efc65840dbb834167f693095d00aa422eac3f51ac1d0c584f92e72ac4e",
+        "sha256_in_prefix": "0e77f5efc65840dbb834167f693095d00aa422eac3f51ac1d0c584f92e72ac4e",
+        "size_in_bytes": 257
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_ext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dde0921d72c7e236802e34635aefb9cc9a87d8a13eabd81333763ad401ffaf3f",
+        "sha256_in_prefix": "dde0921d72c7e236802e34635aefb9cc9a87d8a13eabd81333763ad401ffaf3f",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_ext/directives.py",
+        "path_type": "hardlink",
+        "sha256": "65f29f280c8e50dddef87004e68713d82f784b0e321ba7d84b50bfaa9120371f",
+        "sha256_in_prefix": "65f29f280c8e50dddef87004e68713d82f784b0e321ba7d84b50bfaa9120371f",
+        "size_in_bytes": 4310
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_ext/main.py",
+        "path_type": "hardlink",
+        "sha256": "5fc905ff36a70e2d739f5f833ac9a64d918ee749b81d7e7fe06f0edcf19bfbab",
+        "sha256_in_prefix": "5fc905ff36a70e2d739f5f833ac9a64d918ee749b81d7e7fe06f0edcf19bfbab",
+        "size_in_bytes": 3985
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_ext/mathjax.py",
+        "path_type": "hardlink",
+        "sha256": "f5689cffa6a8735bd2ebc364d68b2300e668386f47811099d975903dbf103a67",
+        "sha256_in_prefix": "f5689cffa6a8735bd2ebc364d68b2300e668386f47811099d975903dbf103a67",
+        "size_in_bytes": 4683
+      },
+      {
+        "_path": "site-packages/myst_parser/sphinx_ext/myst_refs.py",
+        "path_type": "hardlink",
+        "sha256": "5621056098e44b9eb3c9b9a1a66bf6770caf2f969ee8f065a91f1fc95b4b6e03",
+        "sha256_in_prefix": "5621056098e44b9eb3c9b9a1a66bf6770caf2f969ee8f065a91f1fc95b4b6e03",
+        "size_in_bytes": 15210
+      },
+      {
+        "_path": "site-packages/myst_parser/warnings_.py",
+        "path_type": "hardlink",
+        "sha256": "0e4a27e22d7949d597f0ac52741ac1d82074b58e841bf4a445e5fa15dd1ece63",
+        "sha256_in_prefix": "0e4a27e22d7949d597f0ac52741ac1d82074b58e841bf4a445e5fa15dd1ece63",
+        "size_in_bytes": 5477
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/_compat.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/_docs.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/cli.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/config/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/config/__pycache__/dc_validators.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/config/__pycache__/main.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/docutils_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/inventory.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/base.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/html_to_nodes.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/sphinx_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/mdit_to_docutils/__pycache__/transforms.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/mocking.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/directives.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/docutils_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/mdit.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/options.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/parse_html.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/parsers/__pycache__/sphinx_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/sphinx_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/directives.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/main.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/mathjax.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/sphinx_ext/__pycache__/myst_refs.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/myst_parser/__pycache__/warnings_.cpython-313.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/myst-benchmark-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/myst-benchmark.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "myst-parser",
+  "sha256": "f035d0ea623f63247f0f944eb080eaa2a45fb5b7fda8947f4ac94d381ef3bf33",
+  "size": 73074,
+  "subdir": "noarch",
+  "timestamp": 1739381945000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/myst-parser-4.0.1-pyhd8ed1ab_0.conda",
+  "version": "4.0.1"
+}

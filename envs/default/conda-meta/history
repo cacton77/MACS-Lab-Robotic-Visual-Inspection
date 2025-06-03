@@ -1,0 +1,62 @@
+==> 2025-06-03 11:15:24 <==
+# cmd: C:\Users\Colin\anaconda3\Scripts\conda-script.py create --override-channels --yes --prefix C:\Users\Colin\Documents\MACS-Lab-Robotic-Visual-Inspection\envs\default --channel defaults --channel https://conda.anaconda.org/conda-forge sphinx python=3.13 sphinx-rtd-theme myst-parser
+# conda version: 23.11.0
++conda-forge/noarch::markdown-it-py-3.0.0-pyhd8ed1ab_1
++conda-forge/noarch::mdit-py-plugins-0.4.2-pyhd8ed1ab_1
++conda-forge/noarch::myst-parser-4.0.1-pyhd8ed1ab_0
++defaults/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0
++defaults/noarch::pip-25.1-pyhc872135_2
++defaults/noarch::snowballstemmer-2.2.0-pyhd3eb1b0_0
++defaults/noarch::sphinx-rtd-theme-3.0.2-pyhd3eb1b0_0
++defaults/noarch::sphinxcontrib-applehelp-2.0.0-pyhd3eb1b0_1
++defaults/noarch::sphinxcontrib-devhelp-2.0.0-pyhd3eb1b0_0
++defaults/noarch::sphinxcontrib-htmlhelp-2.1.0-pyhd3eb1b0_0
++defaults/noarch::sphinxcontrib-jsmath-1.0.1-pyhd3eb1b0_0
++defaults/noarch::sphinxcontrib-qthelp-2.0.0-pyhd3eb1b0_1
++defaults/noarch::sphinxcontrib-serializinghtml-2.0.0-pyhd3eb1b0_0
++defaults/noarch::tzdata-2025b-h04d1e81_0
++defaults/win-64::alabaster-0.7.16-py313haa95532_0
++defaults/win-64::babel-2.16.0-py313haa95532_0
++defaults/win-64::brotli-python-1.0.9-py313h5da7b33_9
++defaults/win-64::bzip2-1.0.8-h2bbff1b_6
++defaults/win-64::ca-certificates-2025.2.25-haa95532_0
++defaults/win-64::certifi-2025.4.26-py313haa95532_0
++defaults/win-64::colorama-0.4.6-py313haa95532_0
++defaults/win-64::docutils-0.21.2-py313haa95532_0
++defaults/win-64::expat-2.7.1-h8ddb27b_0
++defaults/win-64::idna-3.7-py313haa95532_0
++defaults/win-64::imagesize-1.4.1-py313haa95532_0
++defaults/win-64::jinja2-3.1.6-py313haa95532_0
++defaults/win-64::libffi-3.4.4-hd77b12b_1
++defaults/win-64::libmpdec-4.0.0-h827c3e9_0
++defaults/win-64::markupsafe-3.0.2-py313h827c3e9_0
++defaults/win-64::mdurl-0.1.0-py313haa95532_0
++defaults/win-64::openssl-3.0.16-h3f729d1_0
++defaults/win-64::packaging-24.2-py313haa95532_0
++defaults/win-64::pygments-2.19.1-py313haa95532_0
++defaults/win-64::pysocks-1.7.1-py313haa95532_0
++defaults/win-64::python-3.13.2-hadb2040_100_cp313
++defaults/win-64::python_abi-3.13-0_cp313
++defaults/win-64::pyyaml-6.0.2-py313h827c3e9_0
++defaults/win-64::requests-2.32.3-py313haa95532_1
++defaults/win-64::roman-numerals-py-3.1.0-py313haa95532_0
++defaults/win-64::setuptools-78.1.1-py313haa95532_0
++defaults/win-64::sphinx-8.2.3-py313h827c3e9_0
++defaults/win-64::sphinx_rtd_theme-3.0.2-py313haa95532_0
++defaults/win-64::sphinxcontrib-jquery-4.1-py313haa95532_1
++defaults/win-64::sqlite-3.45.3-h2bbff1b_0
++defaults/win-64::tk-8.6.14-h5e9d12e_1
++defaults/win-64::urllib3-2.3.0-py313haa95532_0
++defaults/win-64::vc-14.42-haa95532_5
++defaults/win-64::vs2015_runtime-14.42.34433-hbfb602d_5
++defaults/win-64::wheel-0.45.1-py313haa95532_0
++defaults/win-64::win_inet_pton-1.1.0-py313haa95532_0
++defaults/win-64::xz-5.6.4-h4754444_1
++defaults/win-64::yaml-0.2.5-he774522_0
++defaults/win-64::zlib-1.2.13-h8cc25b3_1
+# update specs: ['myst-parser', 'python=3.13', 'sphinx', 'sphinx-rtd-theme']
+==> 2025-06-03 11:20:16 <==
+# cmd: C:\Users\Colin\anaconda3\Scripts\conda-script.py install --override-channels --yes --prefix C:\Users\Colin\Documents\MACS-Lab-Robotic-Visual-Inspection\envs\default --channel defaults --channel https://conda.anaconda.org/conda-forge chardet
+# conda version: 23.11.0
++defaults/win-64::chardet-4.0.0-py313haa95532_1003
+# update specs: ['chardet']

@@ -162,6 +162,7 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "environment.yml",
     "build/objects.inv",
     "build/searchindex.js",
     "build/search.html",
@@ -172,7 +173,6 @@
     "build/_static/doctools.js",
     "build/_static/basic.css",
     "build/_static/pygments.css",
-    "build/_sources",
     "build/_static/css/fonts/fontawesome-webfont.svg",
     "build/_static/plus.png",
     "build/_static/minus.png",

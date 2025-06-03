@@ -1,0 +1,10 @@
+name: docs
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13
+  - sphinx
+  - sphinx-rtd-theme
+  - myst-parser
+  - chardet

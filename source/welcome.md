@@ -1,6 +1,5 @@
-# Contact
+# MACS Lab Robotic Inspection documentation
 ***
-
 
 ```{toctree}
 index.md

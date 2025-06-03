@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "source/welcome.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "efe44168da89e323",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "06c23ede5ece0d51",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "source/welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "source/welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "source/welcome.md"
               }
             }
           }
@@ -162,8 +148,11 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
-    "source/contact.md",
+    "Welcome.md",
+    "source/welcome.md",
+    "Untitled.md",
     "source/index.md",
+    "source/contact.md",
     "envs/default/Lib/idlelib/NEWS.txt",
     "requirements.txt",
     "build/_static/js/versions.js",
@@ -187,7 +176,6 @@
     "envs/default/Lib/site-packages/mdit_py_plugins/texmath/README.md",
     "envs/default/Lib/site-packages/mdit_py_plugins/deflist/README.md",
     "envs/default/Lib/site-packages/mdit_py_plugins/container/README.md",
-    "envs/default/Lib/site-packages/idna-3.7.dist-info/LICENSE.md",
-    "Welcome.md"
+    "envs/default/Lib/site-packages/idna-3.7.dist-info/LICENSE.md"
   ]
 }

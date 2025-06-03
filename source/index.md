@@ -16,7 +16,6 @@ If you would like to contribute, you can contact me by {doc}`clicking here <cont
 :hidden:
 
 welcome.md
-contact.md
 ```
 
 ```{toctree}

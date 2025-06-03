@@ -148,6 +148,7 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/development_tools/ssh.md",
     "source/development_tools/development_tools.md",
     "source/development_tools/open3d.md",
     "source/development_tools/copilot.md",
@@ -192,7 +193,6 @@
     "envs/default/Lib/site-packages/sphinx/themes/sphinxdoc/static/contents.png",
     "envs/default/Lib/site-packages/mdit_py_plugins/texmath/README.md",
     "envs/default/Lib/site-packages/mdit_py_plugins/deflist/README.md",
-    "envs/default/Lib/site-packages/mdit_py_plugins/container/README.md",
-    "envs/default/Lib/site-packages/idna-3.7.dist-info/LICENSE.md"
+    "envs/default/Lib/site-packages/mdit_py_plugins/container/README.md"
   ]
 }

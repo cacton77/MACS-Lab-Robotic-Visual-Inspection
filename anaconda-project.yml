@@ -21,6 +21,13 @@ env_specs:
       - myst-parser
       - chardet
 
+dependencies:
+  - python=3.13
+  - sphinx
+  - sphinx-rtd-theme
+  - myst-parser
+  - chardet
+
 channels:
   - defaults
   - https://conda.anaconda.org/conda-forge

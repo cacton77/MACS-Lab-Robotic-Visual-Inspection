@@ -18,6 +18,7 @@ env_specs:
       - python=3.10
       - sphinx
       - sphinx-rtd-theme
+      - sphinx-book-theme
       - myst-parser
       - chardet
  
@@ -28,5 +29,6 @@ dependencies:
   - python=3.10
   - sphinx
   - sphinx-rtd-theme
+  - sphinx-book-theme
   - myst-parser
   - chardet

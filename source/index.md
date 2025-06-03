@@ -13,6 +13,15 @@ Some of the features of my project include:
 If you would like to contribute, you can contact me by {doc}`clicking here <contact>`.
 
 ```{toctree}
+:hidden:
+
 welcome.md
+contact.md
+```
+
+```{toctree}
+:hidden:
+:caption: Contributions
+
 contact.md
 ```

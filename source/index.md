@@ -61,4 +61,5 @@ contact.md
 :hidden:
 :caption: Tools and Tutorials
 development_tools/development_tools.md
+tutorials/tutorials.md
 ```

@@ -148,6 +148,10 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/tutorials/ros2_humble_tutorials.md",
+    "source/tutorials/wsl2_ros2_install.md",
+    "source/tutorials/tutorials.md",
+    "source/tutorials",
     "source/viewpoint_generation/images/figure_8/figure_8-1.jpg",
     "source/viewpoint_generation/images/figure_8",
     "source/viewpoint_generation/images/figure_7/figure_7-1.jpg",
@@ -167,8 +171,6 @@
     "source/viewpoint_generation/images/figure_10_b/figure_10_b-1.jpg",
     "source/viewpoint_generation/images/figure_10_b",
     "source/viewpoint_generation/images/figure_10_1/figure_10_1-1.jpg",
-    "source/viewpoint_generation/images/figure_10_1",
-    "source/viewpoint_generation/images/figure_1/figure_1-1.jpg",
     "source/viewpoint_generation/viewpoint_generation_paper.md",
     "source/development_tools/ssh.md",
     "source/development_tools/development_tools.md",
@@ -191,8 +193,6 @@
     "source/viewpoint_generation/intro.md",
     "Welcome.md",
     "Untitled.md",
-    "source/index.md",
-    "source/contact.md",
-    "envs/default/Lib/site-packages/mdit_py_plugins/texmath/README.md"
+    "source/index.md"
   ]
 }

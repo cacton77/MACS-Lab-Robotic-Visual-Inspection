@@ -6,7 +6,6 @@
 # myst-parser
 # chardet
 myst-parser
-autodoc2
 sphinx
 sphinx-design
 sphinx-copybutton

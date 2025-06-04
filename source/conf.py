@@ -13,7 +13,7 @@ author = 'Colin Acton'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser", "sphinx_design"]
+extensions = ["myst_parser", "sphinx_design", "sphinxext.opengraph"]
 
 templates_path = ['_templates']
 exclude_patterns = []

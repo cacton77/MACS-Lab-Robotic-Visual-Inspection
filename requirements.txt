@@ -1,5 +1,6 @@
 sphinx
 sphinx-design
+sphinxext-opengraph
 sphinx-rtd-theme
 sphinx-book-theme
 myst-parser

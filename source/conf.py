@@ -14,6 +14,23 @@ author = 'Colin Acton'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ["myst_parser", "sphinx_design", "sphinxext.opengraph"]
+extensions = [
+    "myst_parser",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.viewcode",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx_design",
+    "sphinx_copybutton",
+    "sphinxext.rediraffe",
+    # disabled due to https://github.com/mgaitan/sphinxcontrib-mermaid/issues/109
+    # "sphinxcontrib.mermaid",
+    "sphinxext.opengraph",
+    "sphinx_pyscript",
+    "sphinx_tippy",
+    "sphinx_togglebutton",
+]
+
 
 # -- MyST settings ---------------------------------------------------
 

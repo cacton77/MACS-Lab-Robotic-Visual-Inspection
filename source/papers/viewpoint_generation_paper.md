@@ -219,53 +219,43 @@ The camera parameters remained constant for all parts:
 
 **Results Summary:**
 
-Images for each shape in the table:
-     <!-- ![Wing](../_static/images/vg_paper/table_1_a/table_1_a-1.jpg)
-     ![Cylinder](../_static/images/vg_paper/table_1_b/table_1_b-1.jpg)
-     ![Ring](../_static/images/vg_paper/table_1_c/table_1_c-1.jpg)
-     ![Bulkhead](../_static/images/vg_paper/table_1_d/table_1_d-1.jpg)
-     ![Sphere](../_static/images/vg_paper/table_1_e/table_1_e-1.jpg)
-     ![T-stiffener](../_static/images/vg_paper/table_1_f/table_1_f-1.jpg) -->
-<table style="width: 100%; table-layout: fixed;">
+<table>
   <tr>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_a/table_1_a-1.jpg" alt="Wing" style="width: 100%; height: auto;">
-      <br><strong>Wing</strong>
-    </td>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_b/table_1_b-1.jpg" alt="Cylinder" style="width: 100%; height: auto;">
-      <br><strong>Cylinder</strong>
-    </td>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_c/table_1_c-1.jpg" alt="Ring" style="width: 100%; height: auto;">
-      <br><strong>Ring</strong>
-    </td>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_d/table_1_d-1.jpg" alt="Bulkhead" style="width: 100%; height: auto;">
-      <br><strong>Bulkhead</strong>
-    </td>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_e/table_1_e-1.jpg" alt="Sphere" style="width: 100%; height: auto;">
-      <br><strong>Sphere</strong>
-    </td>
-    <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="../_static/images/vg_paper/table_1_f/table_1_f-1.jpg" alt="T-stiffener" style="width: 100%; height: auto;">
-      <br><strong>T-stiffener</strong>
-    </td>
+    <th>Shape</th>
+    <th>Name</th>
+    <th>PE</th>
+    <th># VP</th>
+    <th>Time (secs)</th>
+    <th>Image</th>
   </tr>
+  <tr>
+    <td>Wing</td>
+    <td>Wing</td>
+    <td>0.556</td>
+    <td>44</td>
+    <td>11</td>
+    <td><img src="../_static/images/vg_paper/table_1_a/table_1_a-1.jpg" alt="Wing"></td>
+  </tr>
+  <tr>
+    <td>Wing</td>
+    <td>Wing</td>
+    <td>0.556</td>
+    <td>44</td>
+    <td>11</td>
+    <td><img src="../_static/images/vg_paper/table_1_a/table_1_a-1.jpg" alt="Wing"></td>
+  </tr>
+  <!-- Continue for remaining rows -->
 </table>
 
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
   <tr style="background-color: #f8f9fa;">
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Shape</th>
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Name</th>
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">PE</th>
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;"># VP</th>
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Time (secs)</th>
-    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Image</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold; text-align: center;">Shape</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold; text-align: center;">PE</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold; text-align: center;"># VP</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold; text-align: center;">Time (secs)</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold; text-align: center;">Image</th>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Wing</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Wing</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.556</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">44</td>
@@ -276,7 +266,6 @@ Images for each shape in the table:
   </tr>
   <tr>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Cylinder</td>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Cylinder</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.54</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">49</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">11.5</td>
@@ -285,7 +274,6 @@ Images for each shape in the table:
     </td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Ring</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Ring</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.48</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">55</td>
@@ -296,7 +284,6 @@ Images for each shape in the table:
   </tr>
   <tr>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Bulkhead</td>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Bulkhead</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.47</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">59</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">14.3</td>
@@ -306,7 +293,6 @@ Images for each shape in the table:
   </tr>
   <tr>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Sphere</td>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Sphere</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.41</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">60</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">17</td>
@@ -315,7 +301,6 @@ Images for each shape in the table:
     </td>
   </tr>
   <tr>
-    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">T-stiffener</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">T-stiffener</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.35</td>
     <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">76</td>

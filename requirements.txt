@@ -1,7 +1,17 @@
+# sphinx
+# sphinx-design
+# sphinxext-opengraph
+# sphinx-rtd-theme
+# sphinx-book-theme
+# myst-parser
+# chardet
+myst-parser
+autodoc2
 sphinx
 sphinx-design
+sphinx-copybutton
+sphinxext-rediraffe
 sphinxext-opengraph
-sphinx-rtd-theme
-sphinx-book-theme
-myst-parser
-chardet
+sphinx-pyscript
+sphinx-tippy
+sphinx-togglebutton

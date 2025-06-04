@@ -8,7 +8,7 @@ This site is actively being updated.
 ::::{grid} 1 2 2 3
 :gutter: 1 1 1 2
 
-:::{grid-item-card} {octicon}`markdown;1.5em;sd-mr-1` Viewpoint Generation
+:::{grid-item-card} 👁️‍🗨️ Viewpoint Generation
 :link: viewpoint_generation/intro.md
 <!-- :link-type: ref -->
 
@@ -18,7 +18,7 @@ MyST extends the CommonMark syntax specification, to support technical authoring
 [Learn more »](viewpoint_generation/intro.md)
 :::
 
-:::{grid-item-card} {octicon}`plug;1.5em;sd-mr-1` Traversal Optimization
+:::{grid-item-card} 📈 Traversal Optimization
 :link: traversal_optimization/intro.md
 <!-- :link-type: ref -->
 
@@ -28,7 +28,7 @@ Use the MyST role and directive syntax to harness the full capability of Sphinx,
 [Learn more »](traversal_optimization/intro.md)
 :::
 
-:::{grid-item-card} {octicon}`tools;1.5em;sd-mr-1` Manipulator Focus
+:::{grid-item-card} 🦾 Manipulator Focus
 :link: manipulator_focus/intro.md
 <!-- :link-type: doc -->
 

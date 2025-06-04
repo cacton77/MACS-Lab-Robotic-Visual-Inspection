@@ -2,14 +2,14 @@
 *** 
 
 :::{note}
-This is a note to test MyST parsing.
+This site is actively being updated.
 :::
 
 ::::{grid} 1 2 2 3
 :gutter: 1 1 1 2
 
-:::{grid-item-card} {octicon}`markdown;1.5em;sd-mr-1` CommonMark-plus
-:link: syntax/core
+:::{grid-item-card} {octicon}`markdown;1.5em;sd-mr-1` Viewpoint Generation
+:link: viewpoint_generation/intro.md
 <!-- :link-type: ref -->
 
 MyST extends the CommonMark syntax specification, to support technical authoring features such as tables and footnotes.
@@ -18,8 +18,8 @@ MyST extends the CommonMark syntax specification, to support technical authoring
 [Learn more »](viewpoint_generation/intro.md)
 :::
 
-:::{grid-item-card} {octicon}`plug;1.5em;sd-mr-1` Sphinx compatible
-:link: roles-directives
+:::{grid-item-card} {octicon}`plug;1.5em;sd-mr-1` Traversal Optimization
+:link: traversal_optimization/intro.md
 <!-- :link-type: ref -->
 
 Use the MyST role and directive syntax to harness the full capability of Sphinx, such as admonitions and figures, and all existing Sphinx extensions.
@@ -28,8 +28,8 @@ Use the MyST role and directive syntax to harness the full capability of Sphinx,
 [Learn more »](traversal_optimization/intro.md)
 :::
 
-:::{grid-item-card} {octicon}`tools;1.5em;sd-mr-1` Highly configurable
-:link: configuration
+:::{grid-item-card} {octicon}`tools;1.5em;sd-mr-1` Manipulator Focus
+:link: manipulator_focus/intro.md
 <!-- :link-type: doc -->
 
 MyST-parser can be configured at both the global and individual document level,

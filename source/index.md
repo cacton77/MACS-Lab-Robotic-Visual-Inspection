@@ -23,6 +23,7 @@ overview.md
 :caption: 👁️‍🗨️ Viewpoint Generation
 
 viewpoint_generation/intro.md
+viewpoint_generation/viewpoint_generation_paper.md
 ```
 
 ```{toctree}

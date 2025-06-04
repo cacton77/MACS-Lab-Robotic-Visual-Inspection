@@ -2,7 +2,7 @@
 # sphinx-design
 # sphinxext-opengraph
 # sphinx-rtd-theme
-# sphinx-book-theme
+sphinx-book-theme
 # myst-parser
 # chardet
 myst-parser

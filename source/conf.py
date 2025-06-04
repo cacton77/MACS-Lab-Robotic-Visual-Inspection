@@ -15,6 +15,22 @@ author = 'Colin Acton'
 
 extensions = ["myst_parser", "sphinx_design", "sphinxext.opengraph"]
 
+myst_enable_extensions = [
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
+
+
 templates_path = ['_templates']
 exclude_patterns = []
 

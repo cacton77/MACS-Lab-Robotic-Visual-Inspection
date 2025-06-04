@@ -211,27 +211,27 @@ Images for each shape in the table:
 <table style="width: 100%; table-layout: fixed;">
   <tr>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_a/table_1_a-1.jpg" alt="Wing" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_a/table_1_a-1.jpg" alt="Wing" style="width: 100%; height: auto;">
       <br><strong>Wing</strong>
     </td>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_b/table_1_b-1.jpg" alt="Cylinder" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_b/table_1_b-1.jpg" alt="Cylinder" style="width: 100%; height: auto;">
       <br><strong>Cylinder</strong>
     </td>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_c/table_1_c-1.jpg" alt="Ring" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_c/table_1_c-1.jpg" alt="Ring" style="width: 100%; height: auto;">
       <br><strong>Ring</strong>
     </td>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_d/table_1_d-1.jpg" alt="Bulkhead" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_d/table_1_d-1.jpg" alt="Bulkhead" style="width: 100%; height: auto;">
       <br><strong>Bulkhead</strong>
     </td>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_e/table_1_e-1.jpg" alt="Sphere" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_e/table_1_e-1.jpg" alt="Sphere" style="width: 100%; height: auto;">
       <br><strong>Sphere</strong>
     </td>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
-      <img src="./images/table_1_f/table_1_f-1.jpg" alt="T-stiffener" style="width: 100%; height: auto;">
+      <img src="_static/images/table_1_f/table_1_f-1.jpg" alt="T-stiffener" style="width: 100%; height: auto;">
       <br><strong>T-stiffener</strong>
     </td>
   </tr>

@@ -9,34 +9,34 @@ This site is actively being updated.
 :gutter: 1 1 1 2
 
 :::{grid-item-card} 👁️‍🗨️ Viewpoint Generation
-:link: ./viewpoint_generation/intro.md
+:link: viewpoint_generation/intro
 <!-- :link-type: ref -->
 
 MyST extends the CommonMark syntax specification, to support technical authoring features such as tables and footnotes.
 
 +++
-[Learn more »](./viewpoint_generation/intro.md)
+[Learn more »](viewpoint_generation/intro)
 :::
 
 :::{grid-item-card} 📈 Traversal Optimization
-:link: ./traversal_optimization/intro.md
+:link: traversal_optimization/intro
 <!-- :link-type: ref -->
 
 Use the MyST role and directive syntax to harness the full capability of Sphinx, such as admonitions and figures, and all existing Sphinx extensions.
 
 +++
-[Learn more »](./traversal_optimization/intro.md)
+[Learn more »](traversal_optimization/intro)
 :::
 
 :::{grid-item-card} 🔬 Manipulator Focus
-:link: ./manipulator_focus/intro.md
+:link: manipulator_focus/intro
 <!-- :link-type: doc -->
 
 MyST-parser can be configured at both the global and individual document level,
 to modify parsing behaviour and access extended syntax features.
 
 +++
-[Learn more »](./manipulator_focus/intro.md)
+[Learn more »](manipulator_focus/intro)
 :::
 
 ::::

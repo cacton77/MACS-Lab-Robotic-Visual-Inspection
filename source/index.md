@@ -29,7 +29,7 @@ A Sphinx and Docutils extension to parse MyST,
 a rich and extensible flavour of Markdown for authoring technical and scientific documentation.
 
 ````{div} sd-d-flex-row
-```{button-ref} intro
+```{button-ref} viewpoint_generation/intro.md
 :ref-type: doc
 :color: primary
 :class: sd-rounded-pill sd-mr-3
@@ -37,7 +37,7 @@ a rich and extensible flavour of Markdown for authoring technical and scientific
 Get Started
 ```
 
-```{button-ref} live-preview
+```{button-ref} 
 :ref-type: doc
 :color: secondary
 :class: sd-rounded-pill
@@ -62,7 +62,7 @@ Live Demo
 MyST extends the CommonMark syntax specification, to support technical authoring features such as tables and footnotes.
 
 +++
-[Learn more »](syntax/core)
+[Learn more »](viewpoint_generation/intro.md)
 :::
 
 :::{grid-item-card} {octicon}`plug;1.5em;sd-mr-1` Sphinx compatible
@@ -72,7 +72,7 @@ MyST extends the CommonMark syntax specification, to support technical authoring
 Use the MyST role and directive syntax to harness the full capability of Sphinx, such as admonitions and figures, and all existing Sphinx extensions.
 
 +++
-[Learn more »](roles-directives)
+[Learn more »](traversal_optimization/intro.md)
 :::
 
 :::{grid-item-card} {octicon}`tools;1.5em;sd-mr-1` Highly configurable
@@ -83,7 +83,7 @@ MyST-parser can be configured at both the global and individual document level,
 to modify parsing behaviour and access extended syntax features.
 
 +++
-[Learn more »](configuration)
+[Learn more »](manipulator_focus/intro.md)
 :::
 
 ::::

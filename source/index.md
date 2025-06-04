@@ -28,7 +28,7 @@ Use the MyST role and directive syntax to harness the full capability of Sphinx,
 [Learn more »](./traversal_optimization/intro.md)
 :::
 
-:::{grid-item-card} 🦾 Manipulator Focus
+:::{grid-item-card} 🔬 Manipulator Focus
 :link: ./manipulator_focus/intro.md
 <!-- :link-type: doc -->
 

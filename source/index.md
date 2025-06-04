@@ -1,57 +1,6 @@
 # MACS Lab Robotic Visual Inspection
 *** 
 
-::::{grid}
-:reverse:
-:gutter: 3 4 4 4
-:margin: 1 2 1 2
-
-:::{grid-item}
-:columns: 12 4 4 4
-
-```{image} _static/logo-square.svg
-:width: 200px
-:class: sd-m-auto
-:name: landing-page-logo
-```
-
-:::
-
-:::{grid-item}
-:columns: 12 8 8 8
-:child-align: justify
-:class: sd-fs-5
-
-```{rubric} MyST - Markedly Structured Text - Parser
-```
-
-A Sphinx and Docutils extension to parse MyST,
-a rich and extensible flavour of Markdown for authoring technical and scientific documentation.
-
-````{div} sd-d-flex-row
-```{button-ref} viewpoint_generation/intro.md
-:ref-type: doc
-:color: primary
-:class: sd-rounded-pill sd-mr-3
-
-Get Started
-```
-
-```{button-ref} 
-:ref-type: doc
-:color: secondary
-:class: sd-rounded-pill
-
-Live Demo
-```
-````
-
-:::
-
-::::
-
----
-
 ::::{grid} 1 2 2 3
 :gutter: 1 1 1 2
 
@@ -88,17 +37,6 @@ to modify parsing behaviour and access extended syntax features.
 
 ::::
 
-
-Welcome to my documentation on my **project**.
-This documentation was created by *Colin Acton*.
-
-Some of the features of my project include:
-
-- This feature
-- That feature
-- This other awesome feature
-
-If you would like to contribute, you can contact me by {doc}`clicking here <contact>`.
 
 ```{toctree}
 :hidden:

@@ -23,7 +23,6 @@ overview.md
 :caption: 👁️‍🗨️ Viewpoint Generation
 
 viewpoint_generation/intro.md
-viewpoint_generation/viewpoint_generation_paper.md
 ```
 
 ```{toctree}
@@ -51,10 +50,10 @@ gphoto2_ros2/intro.md
 ```
 
 ```{toctree}
-:hidden:
-:caption: Contributions
+:hidden: 
+:caption: 📃 Papers
 
-contact.md
+viewpoint_generation/viewpoint_generation_paper.md
 ```
 
 ```{toctree}
@@ -62,4 +61,11 @@ contact.md
 :caption: Tools and Tutorials
 development_tools/development_tools.md
 tutorials/tutorials.md
+```
+
+```{toctree}
+:hidden:
+:caption: Contributions
+
+contact.md
 ```

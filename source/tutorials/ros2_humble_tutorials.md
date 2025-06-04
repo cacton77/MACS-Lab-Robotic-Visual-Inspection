@@ -1,9 +1,9 @@
 # ROS2 Humble Tutorials
 ***
 
-The best place to start when learning ROS2 is the official Tutorials page
-
 ROS2 is a flexible framework for writing robot software that provides developers with two primary ways to interact with the system: command line interface (CLI) tools and client libraries. The CLI tools, such as `ros2 node`, `ros2 topic`, and `ros2 service`, offer immediate access to inspect, debug, and control running ROS2 systems without writing code—allowing developers to quickly list active nodes, monitor message traffic, or call services directly from the terminal. In contrast, client libraries like rclcpp (C++) and rclpy (Python) provide programmatic APIs for building robust robot applications, enabling developers to create nodes, publish and subscribe to topics, implement services, and manage the complete lifecycle of robotic components within their source code. While CLI tools excel at system introspection and rapid prototyping, client libraries form the foundation for production robot software where complex behaviors, state management, and real-time performance are essential.
+
+The best place to start when learning ROS2 is the official Tutorials page
 
 ## Installation
 

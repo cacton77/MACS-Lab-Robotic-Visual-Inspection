@@ -148,6 +148,7 @@
   },
   "active": "7875f3eb8efae55f",
   "lastOpenFiles": [
+    "source/tutorials/ros2_docker.md",
     "source/tutorials/ros2_humble_tutorials.md",
     "source/tutorials/wsl2_ros2_install.md",
     "source/tutorials/tutorials.md",
@@ -192,7 +193,6 @@
     "source/manipulator_focus/intro.md",
     "source/viewpoint_generation/intro.md",
     "Welcome.md",
-    "Untitled.md",
-    "source/index.md"
+    "Untitled.md"
   ]
 }

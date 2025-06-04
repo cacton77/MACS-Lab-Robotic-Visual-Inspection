@@ -53,7 +53,7 @@ gphoto2_ros2/intro.md
 :hidden: 
 :caption: 📃 Papers
 
-viewpoint_generation/viewpoint_generation_paper.md
+papers/viewpoint_generation_paper.md
 ```
 
 ```{toctree}

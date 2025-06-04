@@ -42,8 +42,9 @@ Building on previous experiences of working with complex geometries, this paper 
 
 <figure>
   <img src="../_static/images/vg_paper/figure_1/figure_1-1.jpg" alt="">
-  <figcaption><i>Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.</i></figcaption>
+  <figcaption><i>Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix, low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.</i></figcaption>
 </figure>
+
 The proposed framework capitalizes on two algorithmic contributions:
 
 **First algorithmic contribution** relates to the challenge of capturing a part's entire surface from optimal viewpoints in inspection. Manual selection of the viewpoints to collect data is time-consuming and imprecise. On the other hand, existing automated approaches such as identification of flat surfaces using normal vector data of triangles and geometric feature analysis, do not address self-occlusion, meaning certain areas of the part cannot be imaged due to obstruction by its own surface.
@@ -84,15 +85,11 @@ Finally, the robot is commanded to move to these viewpoints to capture in-focus 
 
 The algorithm builds upon the common Lloyd's algorithm segmentation technique (commonly referred to as K-means Clustering) and expands to integrate constraints on part geometry, exponential search, and BO. Additionally, camera parameters including the FOV and DOF are incorporated to ensure that the resulting clusters produce well-focused images.
 
-![Figure 3: Workflow of the proposed segmentation algorithm](../_static/images/vg_paper/figure_3/figure_3-1.jpg)
 <figure>
   <img src="../_static/images/vg_paper/figure_3/figure_3-1.jpg" alt="">
   <figcaption><i>Figure 3: Workflow of the proposed segmentation algorithm</i></figcaption>
 </figure>
-<figure>
-  <img src="" alt="">
-  <figcaption><i></i></figcaption>
-</figure>
+
 
 
 The proposed workflow consists of two segmentation stages:
@@ -130,7 +127,11 @@ To efficiently segment a part into the optimal K number of partitions that satis
 
 The optimal segmentation occurs when all points within each partition are confined to the camera's field of view (FOV) while minimizing the number of clusters, K. The objective is to design a cost function that is convex, with its minimum corresponding to the optimal K value.
 
-![Figure 4: Segmentation of a planar segment: a) all the clusters of an example shape satisfying the field of view condition; b) an individual cluster with all points within the field of view.](../_static/images/vg_paper/figure_4/figure_4-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_4/figure_4-1.jpg" alt="">
+  <figcaption><i>Figure 4: Segmentation of a planar segment: a) all the clusters of an example shape satisfying the field of view condition; b) an individual cluster with all points within the field of view.</i></figcaption>
+</figure>
+
 
 **Point-based cost function:**
 
@@ -254,6 +255,77 @@ Images for each shape in the table:
   </tr>
 </table>
 
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse;">
+  <tr style="background-color: #f8f9fa;">
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Shape</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Name</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">PE</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;"># VP</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Time (secs)</th>
+    <th style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Image</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Wing</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Wing</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.556</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">44</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">11</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_a/table_1_a-1.jpg" alt="Wing" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Cylinder</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Cylinder</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.54</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">49</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">11.5</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_b/table_1_b-1.jpg" alt="Cylinder" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Ring</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Ring</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.48</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">55</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">11.7</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_c/table_1_c-1.jpg" alt="Ring" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Bulkhead</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Bulkhead</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.47</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">59</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">14.3</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_d/table_1_d-1.jpg" alt="Bulkhead" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Sphere</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">Sphere</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.41</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">60</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">17</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_e/table_1_e-1.jpg" alt="Sphere" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">T-stiffener</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">T-stiffener</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">0.35</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">76</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">24</td>
+    <td style="padding: 8px; border: 1px solid #ddd; text-align: center;">
+      <img src="../_static/images/vg_paper/table_1_f/table_1_f-1.jpg" alt="T-stiffener" style="width: 100%; height: auto; max-width: 150px;">
+    </td>
+  </tr>
+</table>
+
 
 | Shape | Name | PE | # VP | Time (secs) |
 |-------|------|-----|------|-------------|
@@ -272,7 +344,11 @@ The packing efficiency metric offers insight into the segmentation effectiveness
 
 The efficiency of the BO for the search for minimum viable K was tested on various shapes. The BO consistently outperformed the exponential search for the fewest evaluations of the field of view check.
 
-![Figure 8: Predicted cost function surrogate model after 6 K value observation shown against true cost function](../_static/images/vg_paper/figure_8/figure_8-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_8/figure_8-1.jpg" alt="">
+  <figcaption><i>Figure 8: Predicted cost function surrogate model after 6 K value observation shown against true cost function</i></figcaption>
+</figure>
+
 
 **Performance Evaluation:**
 
@@ -287,20 +363,38 @@ The efficiency of the BO for the search for minimum viable K was tested on vario
 
 A sphere was utilized as the test subject to evaluate the performance of exponential search and BO methods in determining the optimal K value. The analysis revealed that exponential search outperformed BO for K values within the range of 1 to 5, but beyond this range, BO demonstrated superior efficacy. As the optimal K value increased to 195, the time disparity between the two methods approached approximately 100 seconds.
 
-![Figure 9: Time comparison between exponential search and Bayesian optimization for determining the optimal K value on a sphere, with an increasing number of clusters per flat region](../_static/images/vg_paper/figure_9/figure_9-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_9/figure_9-1.jpg" alt="">
+  <figcaption><i>Figure 9: Time comparison between exponential search and Bayesian optimization for determining the optimal K value on a sphere, with an increasing number of clusters per flat region</i></figcaption>
+</figure>
+
 
 ### 3.5 Imaging a Part
 
 A 3D-printed hollow cylinder with a diameter of 75 mm and a height of 50 mm served as the test subject for actual viewpoint traversal and inspection. The part was randomly marked to simulate defects, and after inspection, detailed images of these markings were identified, indicating complete coverage of the part's surface.
 
 The results demonstrated the system's capability to capture defects on:
-- Outside surface
+- Outer surface
 - Top edge  
 - Inner surface
 
-![Figure 10: Images of a hollow cylinder taken using the inspection plan generated from the proposed algorithm. Simulated defects are visible at a spatial precision sufficient for detection by AI.](../_static/images/vg_paper/figure_10_1/figure_10_1-1.jpg)
-     ![Figure 10b: Top edge image](../_static/images/vg_paper/figure_10_b/figure_10_b-1.jpg)
-     ![Figure 10c: Inner surface image](../_static/images/vg_paper/figure_10_c/figure_10_c-1.jpg)
+<table style="width: 100%; table-layout: fixed;">
+  <tr>
+    <td style="width: 16.67%; text-align: center; padding: 10px;">
+      <img src="../_static/images/vg_paper/figure_10_1/figure_10_1-1.jpg" alt="Wing" style="width: 100%; height: auto;">
+      <br><strong>Outer surface</strong>
+    </td>
+    <td style="width: 16.67%; text-align: center; padding: 10px;">
+      <img src="../_static/images/vg_paper/figure_10_b/figure_10_b-1.jpg" alt="Cylinder" style="width: 100%; height: auto;">
+      <br><strong>Top Edge</strong>
+    </td>
+    <td style="width: 16.67%; text-align: center; padding: 10px;">
+      <img src="../_static/images/vg_paper/figure_10_c/figure_10_c-1.jpg" alt="Ring" style="width: 100%; height: auto;">
+      <br><strong>Inner Surface</strong>
+    </td>
+  </tr>
+</table>
+<figcaption><i>Figure 10: Images of a hollow cylinder taken using the inspection plan generated from the proposed algorithm. Simulated defects are visible at a spatial precision sufficient for detection by AI.</i></figcaption>
 
 
 ### 3.6 Comparison with Manual Robotic Inspection Setup

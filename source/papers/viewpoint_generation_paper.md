@@ -40,8 +40,10 @@ Therefore to reach rapid manufacturing and quality assurance in aerospace, an ag
 
 Building on previous experiences of working with complex geometries, this paper proposes a novel framework that addresses the core features of agile robotic visual inspection through four innovations: camera-parameter-based mesh segmentation, ray-tracing viewpoint placement, robot-agnostic viewpoint planning, and Bayesian Optimization (BO) for efficient segmentation.
 
-![Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.](../_static/images/vg_paper/figure_1/figure_1-1.jpg)
-
+<figure>
+  <img src="../_static/images/vg_paper/figure_1/figure_1-1.jpg" alt="">
+  <figcaption><i>Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.</i></figcaption>
+</figure>
 The proposed framework capitalizes on two algorithmic contributions:
 
 **First algorithmic contribution** relates to the challenge of capturing a part's entire surface from optimal viewpoints in inspection. Manual selection of the viewpoints to collect data is time-consuming and imprecise. On the other hand, existing automated approaches such as identification of flat surfaces using normal vector data of triangles and geometric feature analysis, do not address self-occlusion, meaning certain areas of the part cannot be imaged due to obstruction by its own surface.
@@ -54,7 +56,10 @@ This paper proposes a novel, efficient, and flexible solution using unsupervised
 
 ### 2.1 Overall Workflow
 
-![Figure 2: Stages of the proposed automated viewpoint generation framework](../_static/images/vg_paper/figure_2/figure_2-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_2/figure_2-1.jpg" alt="Figure 2: Stages of the proposed automated viewpoint generation framework">
+  <figcaption><i>Figure 2: Stages of the proposed automated viewpoint generation framework</i></figcaption>
+</figure>
 
 The proposed process for calculating viewpoints for imaging a part involves several key stages:
 
@@ -80,6 +85,15 @@ Finally, the robot is commanded to move to these viewpoints to capture in-focus 
 The algorithm builds upon the common Lloyd's algorithm segmentation technique (commonly referred to as K-means Clustering) and expands to integrate constraints on part geometry, exponential search, and BO. Additionally, camera parameters including the FOV and DOF are incorporated to ensure that the resulting clusters produce well-focused images.
 
 ![Figure 3: Workflow of the proposed segmentation algorithm](../_static/images/vg_paper/figure_3/figure_3-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_3/figure_3-1.jpg" alt="">
+  <figcaption><i>Figure 3: Workflow of the proposed segmentation algorithm</i></figcaption>
+</figure>
+<figure>
+  <img src="" alt="">
+  <figcaption><i></i></figcaption>
+</figure>
+
 
 The proposed workflow consists of two segmentation stages:
 1. Initial stage involves segmenting the part into planar segments that fall within the camera's DOF
@@ -168,7 +182,10 @@ For each formed cluster of points across the surface, a viewpoint is formed by p
 
 A novel method of viewpoint adjustment using ray casting was developed. Each projected viewpoint is tested for occlusion by casting a ray from the viewpoint to each surface point in its corresponding cluster. If the distance traveled by any of the rays does not match the distance from the viewpoint to the surface point within a certain tolerance ε, the viewpoint is considered to be occluded.
 
-![Figure 7: Illustration of the occlusion avoidance feature with V representing the occluded viewpoint and V* representing the optimized viewpoint](../_static/images/vg_paper/figure_7/figure_7-1.jpg)
+<figure>
+  <img src="../_static/images/vg_paper/figure_7/figure_7-1.jpg" alt="Figure 7: Illustration of the occlusion avoidance feature">
+  <figcaption><i>Figure 7: Illustration of the occlusion avoidance feature with V representing the occluded viewpoint and V* representing the optimized viewpoint</i></figcaption>
+</figure>
 
 New candidate viewpoints are progressively generated and tested within the spherical cap defined by angle θ_max from the z-axis. The search domain is swept by progressively increasing θ from the apex of the cap and testing points sampled uniformly along the circumference of the circle.
 

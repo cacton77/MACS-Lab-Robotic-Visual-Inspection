@@ -40,7 +40,7 @@ Therefore to reach rapid manufacturing and quality assurance in aerospace, an ag
 
 Building on previous experiences of working with complex geometries, this paper proposes a novel framework that addresses the core features of agile robotic visual inspection through four innovations: camera-parameter-based mesh segmentation, ray-tracing viewpoint placement, robot-agnostic viewpoint planning, and Bayesian Optimization (BO) for efficient segmentation.
 
-![Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.](images/figure_1/figure_1-1.jpg)
+![Figure 1: The proposed workflow for precision visual surface inspection of complex parts. Left: input parameters of the task, including high-mix low-volume complex object geometries, defect characteristics, and camera specifications; middle: viewpoint generation detailing the factors influencing the generation of robot poses for imaging; right: resulting intelligent robotic imaging system comprising a robotic arm equipped with cameras and LED lights for adaptive lighting.](../_static/images/vg_paper/figure_1/figure_1-1.jpg)
 
 The proposed framework capitalizes on two algorithmic contributions:
 
@@ -54,7 +54,7 @@ This paper proposes a novel, efficient, and flexible solution using unsupervised
 
 ### 2.1 Overall Workflow
 
-![Figure 2: Stages of the proposed automated viewpoint generation framework](images/figure_2/figure_2-1.jpg)
+![Figure 2: Stages of the proposed automated viewpoint generation framework](../_static/images/vg_paper/figure_2/figure_2-1.jpg)
 
 The proposed process for calculating viewpoints for imaging a part involves several key stages:
 
@@ -79,7 +79,7 @@ Finally, the robot is commanded to move to these viewpoints to capture in-focus 
 
 The algorithm builds upon the common Lloyd's algorithm segmentation technique (commonly referred to as K-means Clustering) and expands to integrate constraints on part geometry, exponential search, and BO. Additionally, camera parameters including the FOV and DOF are incorporated to ensure that the resulting clusters produce well-focused images.
 
-![Figure 3: Workflow of the proposed segmentation algorithm](images/figure_3/figure_3-1.jpg)
+![Figure 3: Workflow of the proposed segmentation algorithm](../_static/images/vg_paper/figure_3/figure_3-1.jpg)
 
 The proposed workflow consists of two segmentation stages:
 1. Initial stage involves segmenting the part into planar segments that fall within the camera's DOF
@@ -116,7 +116,7 @@ To efficiently segment a part into the optimal K number of partitions that satis
 
 The optimal segmentation occurs when all points within each partition are confined to the camera's field of view (FOV) while minimizing the number of clusters, K. The objective is to design a cost function that is convex, with its minimum corresponding to the optimal K value.
 
-![Figure 4: Segmentation of a planar segment: a) all the clusters of an example shape satisfying the field of view condition; b) an individual cluster with all points within the field of view.](images/figure_4/figure_4-1.jpg)
+![Figure 4: Segmentation of a planar segment: a) all the clusters of an example shape satisfying the field of view condition; b) an individual cluster with all points within the field of view.](../_static/images/vg_paper/figure_4/figure_4-1.jpg)
 
 **Point-based cost function:**
 
@@ -168,7 +168,7 @@ For each formed cluster of points across the surface, a viewpoint is formed by p
 
 A novel method of viewpoint adjustment using ray casting was developed. Each projected viewpoint is tested for occlusion by casting a ray from the viewpoint to each surface point in its corresponding cluster. If the distance traveled by any of the rays does not match the distance from the viewpoint to the surface point within a certain tolerance ε, the viewpoint is considered to be occluded.
 
-![Figure 7: Illustration of the occlusion avoidance feature with V representing the occluded viewpoint and V* representing the optimized viewpoint](images/figure_7/figure_7-1.jpg)
+![Figure 7: Illustration of the occlusion avoidance feature with V representing the occluded viewpoint and V* representing the optimized viewpoint](../_static/images/vg_paper/figure_7/figure_7-1.jpg)
 
 New candidate viewpoints are progressively generated and tested within the spherical cap defined by angle θ_max from the z-axis. The search domain is swept by progressively increasing θ from the apex of the cap and testing points sampled uniformly along the circumference of the circle.
 
@@ -202,12 +202,12 @@ The camera parameters remained constant for all parts:
 **Results Summary:**
 
 Images for each shape in the table:
-     <!-- ![Wing](images/table_1_a/table_1_a-1.jpg)
-     ![Cylinder](images/table_1_b/table_1_b-1.jpg)
-     ![Ring](images/table_1_c/table_1_c-1.jpg)
-     ![Bulkhead](images/table_1_d/table_1_d-1.jpg)
-     ![Sphere](images/table_1_e/table_1_e-1.jpg)
-     ![T-stiffener](images/table_1_f/table_1_f-1.jpg) -->
+     <!-- ![Wing](../_static/images/vg_paper/table_1_a/table_1_a-1.jpg)
+     ![Cylinder](../_static/images/vg_paper/table_1_b/table_1_b-1.jpg)
+     ![Ring](../_static/images/vg_paper/table_1_c/table_1_c-1.jpg)
+     ![Bulkhead](../_static/images/vg_paper/table_1_d/table_1_d-1.jpg)
+     ![Sphere](../_static/images/vg_paper/table_1_e/table_1_e-1.jpg)
+     ![T-stiffener](../_static/images/vg_paper/table_1_f/table_1_f-1.jpg) -->
 <table style="width: 100%; table-layout: fixed;">
   <tr>
     <td style="width: 16.67%; text-align: center; padding: 10px;">
@@ -255,7 +255,7 @@ The packing efficiency metric offers insight into the segmentation effectiveness
 
 The efficiency of the BO for the search for minimum viable K was tested on various shapes. The BO consistently outperformed the exponential search for the fewest evaluations of the field of view check.
 
-![Figure 8: Predicted cost function surrogate model after 6 K value observation shown against true cost function](images/figure_8/figure_8-1.jpg)
+![Figure 8: Predicted cost function surrogate model after 6 K value observation shown against true cost function](../_static/images/vg_paper/figure_8/figure_8-1.jpg)
 
 **Performance Evaluation:**
 
@@ -270,7 +270,7 @@ The efficiency of the BO for the search for minimum viable K was tested on vario
 
 A sphere was utilized as the test subject to evaluate the performance of exponential search and BO methods in determining the optimal K value. The analysis revealed that exponential search outperformed BO for K values within the range of 1 to 5, but beyond this range, BO demonstrated superior efficacy. As the optimal K value increased to 195, the time disparity between the two methods approached approximately 100 seconds.
 
-![Figure 9: Time comparison between exponential search and Bayesian optimization for determining the optimal K value on a sphere, with an increasing number of clusters per flat region](images/figure_9/figure_9-1.jpg)
+![Figure 9: Time comparison between exponential search and Bayesian optimization for determining the optimal K value on a sphere, with an increasing number of clusters per flat region](../_static/images/vg_paper/figure_9/figure_9-1.jpg)
 
 ### 3.5 Imaging a Part
 
@@ -281,9 +281,9 @@ The results demonstrated the system's capability to capture defects on:
 - Top edge  
 - Inner surface
 
-![Figure 10: Images of a hollow cylinder taken using the inspection plan generated from the proposed algorithm. Simulated defects are visible at a spatial precision sufficient for detection by AI.](images/figure_10_1/figure_10_1-1.jpg)
-     ![Figure 10b: Top edge image](images/figure_10_b/figure_10_b-1.jpg)
-     ![Figure 10c: Inner surface image](images/figure_10_c/figure_10_c-1.jpg)
+![Figure 10: Images of a hollow cylinder taken using the inspection plan generated from the proposed algorithm. Simulated defects are visible at a spatial precision sufficient for detection by AI.](../_static/images/vg_paper/figure_10_1/figure_10_1-1.jpg)
+     ![Figure 10b: Top edge image](../_static/images/vg_paper/figure_10_b/figure_10_b-1.jpg)
+     ![Figure 10c: Inner surface image](../_static/images/vg_paper/figure_10_c/figure_10_c-1.jpg)
 
 
 ### 3.6 Comparison with Manual Robotic Inspection Setup

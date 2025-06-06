@@ -5,6 +5,9 @@
 This site is actively being updated.
 :::
 
+## Core Projects
+***
+
 ::::{grid} 1 2 2 3
 :gutter: 1 1 1 2
 
@@ -37,6 +40,70 @@ to modify parsing behaviour and access extended syntax features.
 
 +++
 [Learn more »](manipulator_focus/intro)
+:::
+
+::::
+
+## Development Tools
+***
+
+::::{grid} 1 2 2 3
+:gutter: 1 1 1 2
+
+:::{grid-item-card} ⚙️ ROS 2
+:link: development_tools/ros2
+:link-type: doc
+
++++
+[Learn more »](development_tools/ros2)
+:::
+
+:::{grid-item-card} 🐧 Ubuntu
+:link: development_tools/ubuntu
+:link-type: doc
+
++++
+[Learn more »](development_tools/ubuntu)
+:::
+
+:::{grid-item-card} 🐋 Docker
+:link: development_tools/docker
+:link-type: doc
+
++++
+[Learn more »](development_tools/docker)
+:::
+
+::::
+
+## Tutorials
+***
+
+::::{grid} 1 2 2 3
+:gutter: 1 1 1 2
+
+:::{grid-item-card} ROS2 Development in WSL2
+:link: tutorials/wsl2_ros2_install
+:link-type: doc
+
++++
+[Learn more »](tutorials/wsl2_ros2_install)
+:::
+
+:::{grid-item-card} ROS2 Humble Tutorials
+:link: tutorials/ros2_humble_tutorials
+:link-type: doc
+
++++
+[Learn more »](tutorials/ros2_humble_tutorials)
+:::
+
+:::{grid-item-card} Docker for ROS2 Development
+:link: tutorials/ros2_docker
+:link-type: doc
+
++++
+[Learn more »](tutorials/ros2_docker)
 :::
 
 ::::

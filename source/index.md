@@ -45,7 +45,7 @@ Estimate and optimize image focus and quality, and maintain constant magnificati
 :link: point_cloud_registration/intro
 :link-type: doc
 
-Facilitate fixtureless inspection and part adaptability through single-shot depth information part library-lookup and pose estimation.
+Facilitate fixtureless inspection and part adaptability through single-shot depth information part library lookup and pose estimation.
 
 +++
 [Learn more »](point_cloud_registration/intro)

@@ -35,7 +35,7 @@ Minimize inspection time through optimal ordering of viewpoints.
 :link: manipulator_focus/intro
 :link-type: doc
 
-Estimate and optimize image focus and quality through real-time adaptive visual servoing-based autofocus.
+Estimate and optimize image focus and quality, and maintain constant magnification through real-time adaptive visual servoing-based autofocus.
 
 +++
 [Learn more »](manipulator_focus/intro)

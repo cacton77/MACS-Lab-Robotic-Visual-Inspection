@@ -157,7 +157,7 @@ viewpoint_generation/intro.md
 :caption: 📈 Viewpoint Traversal Optimization
 
 traversal_optimization/intro.md
-traversal_optimization/turtnable.md
+traversal_optimization/turntable.md
 ```
 
 ```{toctree}

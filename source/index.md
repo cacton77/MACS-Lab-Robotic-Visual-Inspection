@@ -5,7 +5,7 @@
 This site is actively being updated.
 :::
 
-## Core Projects
+### Core Projects
 ***
 
 ::::{grid} 1 2 2 3
@@ -42,9 +42,21 @@ to modify parsing behaviour and access extended syntax features.
 [Learn more »](manipulator_focus/intro)
 :::
 
+:::{grid-item-card} 🔬 Manipulator Focus
+:link: manipulator_focus/intro
+:link-type: doc
+
+MyST-parser can be configured at both the global and individual document level,
+to modify parsing behaviour and access extended syntax features.
+
++++
+[Learn more »](manipulator_focus/intro)
+:::
+
+
 ::::
 
-## Development Tools
+### Development Tools
 ***
 
 ::::{grid} 1 2 2 3
@@ -76,7 +88,7 @@ to modify parsing behaviour and access extended syntax features.
 
 ::::
 
-## Tutorials
+### Tutorials
 ***
 
 ::::{grid} 1 2 2 3

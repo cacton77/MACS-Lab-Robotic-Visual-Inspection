@@ -82,6 +82,8 @@ Provide non-intrusive, minimally supervised AI model training data collection pi
 :link: development_tools/ros2
 :link-type: doc
 
+Flexible, modular robotics middleware framework for building distributed robotic systems.
+
 +++
 [Learn more »](development_tools/ros2)
 :::
@@ -179,6 +181,7 @@ gphoto2_ros2/intro.md
 :caption: 📃 Papers
 
 papers/viewpoint_generation_paper.md
+papers/focus_metrics_paper.md
 ```
 
 ```{toctree}

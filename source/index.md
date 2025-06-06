@@ -5,7 +5,7 @@
 This site is actively being updated.
 :::
 
-### Core Projects
+### Core Research
 ***
 
 ::::{grid} 1 2 2 3
@@ -31,7 +31,7 @@ Use the MyST role and directive syntax to harness the full capability of Sphinx,
 [Learn more »](traversal_optimization/intro)
 :::
 
-:::{grid-item-card} 🔬 Manipulator Focus
+:::{grid-item-card} 🔬 Visual Servo Autofocus
 :link: manipulator_focus/intro
 :link-type: doc
 
@@ -42,18 +42,32 @@ to modify parsing behaviour and access extended syntax features.
 [Learn more »](manipulator_focus/intro)
 :::
 
-:::{grid-item-card} 🔬 Manipulator Focus
-:link: manipulator_focus/intro
+:::{grid-item-card} 🧭 Point Cloud Registration
+:link: point_cloud_registration/intro
 :link-type: doc
 
-MyST-parser can be configured at both the global and individual document level,
-to modify parsing behaviour and access extended syntax features.
 
 +++
-[Learn more »](manipulator_focus/intro)
+[Learn more »](point_cloud_registration/intro)
 :::
 
+:::{grid-item-card} 🔦 Illuminance Control
+:link: illuminance_control/intro
+:link-type: doc
 
+
++++
+[Learn more »](illuminance_control/intro)
+:::
+
+:::{grid-item-card} 🔍 Anomaly Detection
+:link: anomaly_detection/intro
+:link-type: doc
+
+
++++
+[Learn more »](anomaly_detection/intro)
+:::
 ::::
 
 ### Development Tools

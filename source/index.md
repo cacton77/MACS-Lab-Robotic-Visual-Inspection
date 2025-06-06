@@ -15,7 +15,7 @@ This site is actively being updated.
 :link: viewpoint_generation/intro
 :link-type: doc
 
-MyST extends the CommonMark syntax specification, to support technical authoring features such as tables and footnotes.
+Produce minimum number of un-obstructed viewpoints for complete surface imaging of complex geometries from only part CAD or point cloud scan and camera intrinsic information.
 
 +++
 [Learn more »](viewpoint_generation/intro)
@@ -25,18 +25,17 @@ MyST extends the CommonMark syntax specification, to support technical authoring
 :link: traversal_optimization/intro
 :link-type: doc
 
-Use the MyST role and directive syntax to harness the full capability of Sphinx, such as admonitions and figures, and all existing Sphinx extensions.
+Minimize inspection time through optimal ordering of viewpoints.
 
 +++
 [Learn more »](traversal_optimization/intro)
 :::
 
-:::{grid-item-card} 🔬 Visual Servo Autofocus
+:::{grid-item-card} 🔬 Manipulator Autofocus
 :link: manipulator_focus/intro
 :link-type: doc
 
-MyST-parser can be configured at both the global and individual document level,
-to modify parsing behaviour and access extended syntax features.
+Estimate and optimize image focus and quality through real-time adaptive visual servoing-based autofocus.
 
 +++
 [Learn more »](manipulator_focus/intro)
@@ -46,6 +45,7 @@ to modify parsing behaviour and access extended syntax features.
 :link: point_cloud_registration/intro
 :link-type: doc
 
+Facilitate fixtureless inspection and part adaptability through single-shot depth information part library-lookup and pose estimation.
 
 +++
 [Learn more »](point_cloud_registration/intro)
@@ -55,6 +55,7 @@ to modify parsing behaviour and access extended syntax features.
 :link: illuminance_control/intro
 :link-type: doc
 
+Improve deployment environment adaptability and anomaly detection accuracy through source to surface lighting modeling and control.
 
 +++
 [Learn more »](illuminance_control/intro)
@@ -64,6 +65,7 @@ to modify parsing behaviour and access extended syntax features.
 :link: anomaly_detection/intro
 :link-type: doc
 
+Provide non-intrusive, minimally supervised AI model training data collection pipeline and adaptive models for detection of non-conforming image regions.
 
 +++
 [Learn more »](anomaly_detection/intro)

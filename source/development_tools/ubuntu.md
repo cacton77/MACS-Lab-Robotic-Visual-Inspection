@@ -7,7 +7,7 @@ wsl2.md
 % Insert picture ../_static/images/tux.jpg
 ![Tux](../_static/images/tux.jpg)
 
-### Dual Booting
+## Dual Booting
 
 If you want to dual boot Ubuntu with Windows, you can follow the [official guide](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
 

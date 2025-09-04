@@ -31,5 +31,9 @@ The best place to start when learning ROS2 is the official Tutorials page
 
 ## TF2 Tutorials
 
-1. [TF2 Overview (Articulated Robotics)](https://www.youtube.com/watch?v=QyvHhY4Y_Y8)
+1. [The ROS Transform System (TF) Video (Articulated Robotics)](https://www.youtube.com/watch?v=QyvHhY4Y_Y8)
 2. [TF2 Tutorials](https://docs.ros.org/en/humble/Tutorials/Intermediate/Tf2/Tf2-Main.html)
+
+## Time Synchronization
+
+1. [Time Synchronization in ROS2 (Python)](https://docs.ros.org/en/humble/p/message_filters/doc/Tutorials/Writing-A-Time-Synchronizer-Python.html)

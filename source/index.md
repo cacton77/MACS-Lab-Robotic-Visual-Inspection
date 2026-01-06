@@ -183,6 +183,7 @@ gphoto2_ros2/intro.md
 
 papers/viewpoint_generation_paper.md
 papers/focus_metrics_paper.md
+papers/autofocus_paper.md
 ```
 
 ```{toctree}

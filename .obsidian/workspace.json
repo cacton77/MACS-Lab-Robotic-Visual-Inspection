@@ -4,19 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "6abfcfb3dd471d21",
+        "id": "7954fd8646bc3e99",
         "type": "tabs",
+        "dimension": 45.938628158844764,
         "children": [
           {
-            "id": "7875f3eb8efae55f",
+            "id": "56b0675017be8554",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/index.md",
+                "file": "source/papers/focus_metrics_paper.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "focus_metrics_paper"
+            }
+          }
+        ]
+      },
+      {
+        "id": "81dddaafbfd1ce95",
+        "type": "tabs",
+        "dimension": 54.061371841155236,
+        "children": [
+          {
+            "id": "db87c6f8c19faff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/papers/autofocus_paper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "autofocus_paper"
             }
           }
         ]
@@ -38,8 +62,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +81,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +91,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +123,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -102,10 +134,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -115,8 +148,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +162,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/index.md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
@@ -146,32 +187,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7875f3eb8efae55f",
+  "active": "db87c6f8c19faff8",
   "lastOpenFiles": [
+    "source/papers/focus_metrics_paper.md",
+    "source/_static/images/autofocus_paper/algo_render.png",
+    "source/_static/images/autofocus_paper/new_system_image.png",
+    "source/_static/images/autofocus_paper/fv_comparison_log.png",
+    "source/_static/images/autofocus_paper/results_sobel.png",
+    "source/_static/images/autofocus_paper/led_coupon.PNG",
+    "source/_static/images/autofocus_paper/foam_coupon.PNG",
+    "source/_static/images/autofocus_paper/breadboard_coupon.PNG",
+    "source/_static/images/autofocus_paper/coupon.PNG",
+    "source/_static/images/autofocus_paper/solder_coupon.PNG",
+    "source/_static/images/autofocus_paper/wood_coupon.PNG",
+    "source/_static/images/autofocus_paper",
+    "source/papers/autofocus_paper.md",
+    "source/index.md",
     "source/tutorials/ros2_docker.md",
     "source/tutorials/ros2_humble_tutorials.md",
     "source/tutorials/wsl2_ros2_install.md",
     "source/tutorials/tutorials.md",
     "source/tutorials",
-    "source/viewpoint_generation/images/figure_8/figure_8-1.jpg",
     "source/viewpoint_generation/images/figure_8",
-    "source/viewpoint_generation/images/figure_7/figure_7-1.jpg",
     "source/viewpoint_generation/images/figure_7",
-    "source/viewpoint_generation/images/figure_6/figure_6-1.jpg",
     "source/viewpoint_generation/images/figure_6",
-    "source/viewpoint_generation/images/figure_5/figure_5-1.jpg",
     "source/viewpoint_generation/images/figure_5",
-    "source/viewpoint_generation/images/figure_4/figure_4-1.jpg",
     "source/viewpoint_generation/images/figure_4",
-    "source/viewpoint_generation/images/figure_3/figure_3-1.jpg",
     "source/viewpoint_generation/images/figure_3",
-    "source/viewpoint_generation/images/figure_2/figure_2-1.jpg",
     "source/viewpoint_generation/images/figure_2",
-    "source/viewpoint_generation/images/figure_10_c/figure_10_c-1.jpg",
     "source/viewpoint_generation/images/figure_10_c",
-    "source/viewpoint_generation/images/figure_10_b/figure_10_b-1.jpg",
-    "source/viewpoint_generation/images/figure_10_b",
-    "source/viewpoint_generation/images/figure_10_1/figure_10_1-1.jpg",
     "source/viewpoint_generation/viewpoint_generation_paper.md",
     "source/development_tools/ssh.md",
     "source/development_tools/development_tools.md",
@@ -189,10 +233,6 @@
     "source/manipulator_focus/focus_metrics.md",
     "source/manipulator_focus/control_algorithm.md",
     "source/gphoto2_ros2/intro.md",
-    "source/traversal_optimization/intro.md",
-    "source/manipulator_focus/intro.md",
-    "source/viewpoint_generation/intro.md",
-    "Welcome.md",
-    "Untitled.md"
+    "source/traversal_optimization/intro.md"
   ]
 }

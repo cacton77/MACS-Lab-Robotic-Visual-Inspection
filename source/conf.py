@@ -30,7 +30,10 @@ extensions = [
     "sphinx_tippy",
     "sphinx_togglebutton",
 ]
-
+html_js_files = [
+    ('https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js',
+     {'type': 'module'}),
+]
 
 # -- MyST settings ---------------------------------------------------
 

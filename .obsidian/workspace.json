@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/papers/autofocus_paper.md",
+                "file": "source/viewpoint_generation/intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autofocus_paper"
+              "title": "intro"
             }
           }
         ]
@@ -189,7 +189,11 @@
   },
   "active": "db87c6f8c19faff8",
   "lastOpenFiles": [
+    "source/_static/glb/occlusion_avoidance.glb",
     "source/papers/focus_metrics_paper.md",
+    "source/_static/glb",
+    "source/viewpoint_generation/intro.md",
+    "source/papers/autofocus_paper.md",
     "source/_static/images/autofocus_paper/algo_render.png",
     "source/_static/images/autofocus_paper/new_system_image.png",
     "source/_static/images/autofocus_paper/fv_comparison_log.png",
@@ -201,7 +205,6 @@
     "source/_static/images/autofocus_paper/solder_coupon.PNG",
     "source/_static/images/autofocus_paper/wood_coupon.PNG",
     "source/_static/images/autofocus_paper",
-    "source/papers/autofocus_paper.md",
     "source/index.md",
     "source/tutorials/ros2_docker.md",
     "source/tutorials/ros2_humble_tutorials.md",
@@ -215,7 +218,6 @@
     "source/viewpoint_generation/images/figure_4",
     "source/viewpoint_generation/images/figure_3",
     "source/viewpoint_generation/images/figure_2",
-    "source/viewpoint_generation/images/figure_10_c",
     "source/viewpoint_generation/viewpoint_generation_paper.md",
     "source/development_tools/ssh.md",
     "source/development_tools/development_tools.md",
@@ -232,7 +234,6 @@
     "source/manipulator_focus/autofocus.md",
     "source/manipulator_focus/focus_metrics.md",
     "source/manipulator_focus/control_algorithm.md",
-    "source/gphoto2_ros2/intro.md",
-    "source/traversal_optimization/intro.md"
+    "source/gphoto2_ros2/intro.md"
   ]
 }

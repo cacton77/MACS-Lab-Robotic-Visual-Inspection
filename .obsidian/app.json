@@ -1,1 +1,4 @@
-{}
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "source/_static/images"
+}

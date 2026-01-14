@@ -70,6 +70,17 @@ Provide non-intrusive, minimally supervised AI model training data collection pi
 +++
 [Learn more »](anomaly_detection/intro)
 :::
+
+:::{grid-item-card} 📒 Notes
+:link: journal/index
+:link-type: doc
+
+Notes
+
++++
+[Learn more »](anomaly_detection/intro)
+:::
+
 ::::
 
 ### Development Tools
@@ -190,6 +201,13 @@ papers/autofocus_paper.md
 :hidden:
 :caption: Tools and Tutorials
 development_tools/development_tools.md
+tutorials/tutorials.md
+```
+
+```{toctree}
+:hidden:
+:caption: Notes
+01 - Journal/index.md
 tutorials/tutorials.md
 ```
 

@@ -1,9 +1,3 @@
----
-tags:
-  - journal/daily
-created: {{current_date}}
----
-# {{title}}
 
 
 ## Tasks

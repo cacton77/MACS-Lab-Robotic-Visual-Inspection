@@ -1,9 +1,4 @@
----
-tags:
-  - journal/weekly
-created: {{current_date}}
----
-# {{title}}
+
 
 ## Weekly Focus
 - <% tp.file.cursor() %>

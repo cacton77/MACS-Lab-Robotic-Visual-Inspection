@@ -1,9 +1,3 @@
----
-tags:
-  - journal/yearly
-created: {{current_date}}
----
-# {{title}}
 
 ## Yearly Themes & Goals
 - <% tp.file.cursor() %>

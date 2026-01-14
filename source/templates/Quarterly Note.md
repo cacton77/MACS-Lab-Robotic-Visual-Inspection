@@ -1,9 +1,4 @@
----
-tags:
-  - journal/quarterly
-created: {{current_date}}
----
-# {{title}}
+
 
 ## Quarterly Objectives
 - <% tp.file.cursor() %>

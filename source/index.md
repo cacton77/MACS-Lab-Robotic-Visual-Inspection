@@ -208,7 +208,6 @@ tutorials/tutorials.md
 :hidden:
 :caption: Notes
 01 - Journal/index.md
-tutorials/tutorials.md
 ```
 
 ```{toctree}

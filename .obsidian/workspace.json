@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/01 - Journal/05 - Annual/2026.md",
+                "file": "source/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026"
+              "title": "index"
             }
           }
         ]
@@ -181,19 +181,19 @@
   },
   "active": "899e01085e3c1c75",
   "lastOpenFiles": [
+    "source/01 - Journal/index.md",
+    "source/index.md",
+    "source/01 - Journal/05 - Annual/2026.md",
     "source/01 - Journal/02 - Weekly/2026-W3.md",
     "source/01 - Journal/01 - Daily/2026-01-14.md",
     "source/01 - Journal/01 - Daily/2026-01-13.md",
-    "source/templates/Annual Note.md",
-    "source/templates/Daily Note.md",
-    "source/templates/Monthly Note.md",
-    "source/templates/Quarterly Note.md",
     "source/templates/Weekly Note.md",
-    "source/01 - Journal/index.md",
-    "source/01 - Journal/05 - Annual/2026.md",
+    "source/templates/Quarterly Note.md",
+    "source/templates/Monthly Note.md",
+    "source/templates/Daily Note.md",
+    "source/templates/Annual Note.md",
     "source/tutorials/tutorials.md",
     "source/manipulator_focus/intro.md",
-    "source/index.md",
     "source/_static/images/Pasted image 20260113123112.png",
     "source/templates/README.md",
     "source/01 - Journal/01 - Daily/2026-01-15.md",

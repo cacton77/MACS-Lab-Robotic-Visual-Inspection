@@ -1,4 +1,4 @@
-
+# {{title}}
 ## Yearly Themes & Goals
 - <% tp.file.cursor() %>
 
